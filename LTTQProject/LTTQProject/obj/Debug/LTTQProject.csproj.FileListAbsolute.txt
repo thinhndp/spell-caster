@@ -1,0 +1,10 @@
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.exe.config
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.exe
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.pdb
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csprojResolveAssemblyReference.cache
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.Form1.resources
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.Properties.Resources.resources
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.GenerateResource.Cache
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.CoreCompileInputs.cache
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.exe
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.pdb
