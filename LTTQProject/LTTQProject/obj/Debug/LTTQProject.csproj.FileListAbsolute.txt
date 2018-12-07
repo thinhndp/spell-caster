@@ -8,3 +8,4 @@ D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.Generat
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.CoreCompileInputs.cache
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.exe
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.pdb
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.MainGame.resources
