@@ -10,22 +10,59 @@ namespace LTTQProject
     class Game
     {
         Player harry;
+        //DeathEater deathEater;
+        //Dementor dementor;
+        //Bat bat;
+        EnemyManager enemies;
 
         public Game() {
 
         }
 
         public Game(Form form) {
-            harry = new Player(10, 10);
+            harry = new Player(10, 300);
+            enemies = new EnemyManager(5, 5);
         }
 
         public void Draw(PaintEventArgs e)
         {
-            harry.Update(e);
+            harry.Draw(e);
+            enemies.DrawEnemies(e);
         }
 
-        public void GameEnd() {
+        public void CastSpell() {
+            harry.CastSpell();
+            enemies.Destroyed();
+        }
 
+        public void EndCast() {
+            harry.EndCast();
+        }
+
+        public void Update(Form form, Button castButton, Timer timer) {
+
+            harry.Update();
+
+            enemies.Update();
+
+            if (enemies.TouchPlayer(harry)) {
+                GameOver(form, timer);
+                return;
+            } 
+
+            form.Invalidate();
+        }
+
+        public void GameOver(Form form, Timer timer) {
+            timer.Stop();
+            MessageBox.Show("LOL noob");
+            //FormMain fm = new FormMain();
+            //fm.Show();
+            GameEnd(form);
+        }
+
+        public void GameEnd(Form form) {
+            form.Dispose();
         }
     }
 }

@@ -29,6 +29,14 @@ namespace LTTQProject
             sprite = new Sprite[count];
         }
 
+        public void SetAnimation(int begin, int end, int delay = 1) {
+            animcount = 0;
+            animdelay = delay;
+            beginframe = begin;
+            endframe = end;
+            curframe = beginframe;
+        }
+
         void NextFrame(int newframe)
         {
             if (newframe > endframe || newframe < beginframe)

@@ -19,11 +19,32 @@ namespace LTTQProject
             this.Size = new Size(800, 500);
             game = new Game(this);
             this.BackgroundImage = Properties.Resources.background;
+            timer1.Start();
         }
 
         private void MainGame_Paint(object sender, PaintEventArgs e)
         {
             game.Draw(e);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            game.Update(this, button1, timer1);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
+        {
+            game.CastSpell();
+        }
+
+        private void button1_MouseUp(object sender, MouseEventArgs e)
+        {
+            game.EndCast();
         }
     }
 }

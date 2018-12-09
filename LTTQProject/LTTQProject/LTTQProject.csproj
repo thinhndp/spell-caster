@@ -46,6 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="Bat.cs" />
+    <Compile Include="DeathEater.cs" />
+    <Compile Include="Dementor.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +101,12 @@
     <Content Include="res\background_images\background.png" />
     <Content Include="res\character_images\harry.png" />
     <Content Include="res\character_images\harry_cast.png" />
+    <None Include="res\enemies_images\dementor_2.png" />
+    <None Include="res\enemies_images\dementor_1.png" />
+    <None Include="res\enemies_images\bat_1.png" />
+    <None Include="res\enemies_images\bat_2.png" />
+    <None Include="res\enemies_images\bat_3.png" />
+    <None Include="res\enemies_images\bat_4.png" />
     <Content Include="res\enemies_images\death_eater_1.png" />
     <Content Include="res\enemies_images\death_eater_2.png" />
     <Content Include="res\enemies_images\death_eater_3.png" />
