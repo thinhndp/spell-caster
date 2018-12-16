@@ -98,6 +98,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\life_1.png" />
+    <None Include="Resources\life_2.png" />
+    <None Include="Resources\life_3.png" />
+    <None Include="Resources\life_4.png" />
+    <None Include="Resources\life_5.png" />
+    <None Include="Resources\Descendio.png" />
+    <None Include="Resources\Sectumsempra.png" />
+    <None Include="Resources\WingardiumLeviosa.png" />
     <Content Include="res\background_images\background.png" />
     <Content Include="res\character_images\harry.png" />
     <Content Include="res\character_images\harry_cast.png" />
@@ -111,8 +119,6 @@
     <Content Include="res\enemies_images\death_eater_2.png" />
     <Content Include="res\enemies_images\death_eater_3.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

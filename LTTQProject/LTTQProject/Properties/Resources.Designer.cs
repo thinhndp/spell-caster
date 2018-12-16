@@ -163,6 +163,16 @@ namespace LTTQProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Descendio {
+            get {
+                object obj = ResourceManager.GetObject("Descendio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap harry {
             get {
                 object obj = ResourceManager.GetObject("harry", resourceCulture);
@@ -176,6 +186,76 @@ namespace LTTQProject.Properties {
         internal static System.Drawing.Bitmap harry_cast {
             get {
                 object obj = ResourceManager.GetObject("harry_cast", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap life_1 {
+            get {
+                object obj = ResourceManager.GetObject("life_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap life_2 {
+            get {
+                object obj = ResourceManager.GetObject("life_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap life_3 {
+            get {
+                object obj = ResourceManager.GetObject("life_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap life_4 {
+            get {
+                object obj = ResourceManager.GetObject("life_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap life_5 {
+            get {
+                object obj = ResourceManager.GetObject("life_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sectumsempra {
+            get {
+                object obj = ResourceManager.GetObject("Sectumsempra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WingardiumLeviosa {
+            get {
+                object obj = ResourceManager.GetObject("WingardiumLeviosa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
