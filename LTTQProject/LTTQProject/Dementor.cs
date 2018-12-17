@@ -17,6 +17,11 @@ namespace LTTQProject
 
             anim.sprite[0] = new Sprite(Properties.Resources.dementor_1, 0.17);
             anim.sprite[1] = new Sprite(Properties.Resources.dementor_2, 0.17);
+
+            life = 3;
+            spellRelativeX = 10;
+            spellRelativeY = 50;
+            GenerateNextWeakSpell();
         }
 
         public override void Update()

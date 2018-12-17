@@ -21,7 +21,8 @@ namespace LTTQProject
 
         public Game(Form form) {
             harry = new Player(10, 300);
-            enemies = new EnemyManager(5, 5);
+            enemies = new EnemyManager(5, 19);
+            //Utilities.rand = new Random();
         }
 
         public void Draw(PaintEventArgs e)
@@ -33,6 +34,11 @@ namespace LTTQProject
         public void CastSpell() {
             harry.CastSpell();
             enemies.Destroyed();
+        }
+
+        public void CastSpell(String attemp) {
+            harry.CastSpell();
+            enemies.TookSpell(attemp);
         }
 
         public void EndCast() {

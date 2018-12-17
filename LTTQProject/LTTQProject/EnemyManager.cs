@@ -48,8 +48,11 @@ namespace LTTQProject
         }
 
         public void SpawnRandomNewEnemy(int x = 700, int y = 275, int movex = 0, int movey = 0) {
-            Random rnd = new Random();
-            int id = rnd.Next(0, 3);
+            //Random rnd = new Random();
+            //int id = rnd.Next(0, 4);
+            int id = Utilities.RandomGenerator(0, 4);
+
+            //id = 3;
 
             switch (id) {
                 case 0:
@@ -60,6 +63,9 @@ namespace LTTQProject
                     break;
                 case 2:
                     enemiesList.Add(new Dementor(x, y));
+                    break;
+                case 3:
+                    enemiesList.Add(new Dragon(x, y));
                     break;
                 default:
                     enemiesList.Add(new Bat(x, y));
@@ -90,8 +96,26 @@ namespace LTTQProject
                 }
             }
 
-            enemiesList.RemoveAt(imin);
-            enemyCount--;
+            if (enemiesList[imin].life <= 1)
+            {
+                enemiesList.RemoveAt(imin);
+                enemyCount--;
+            }
+            else {
+                enemiesList[imin].Damaged();
+            }
+        }
+
+        public void TookSpell(String attemp) {
+            for (int i = 0; i < enemiesList.Count; i++) {
+                enemiesList[i].TookSpell(attemp);
+                if (enemiesList[i].life <= 0)
+                {
+                    enemiesList.RemoveAt(i);
+                    enemyCount--;
+                    i--;
+                }
+            }
         }
     }
 }

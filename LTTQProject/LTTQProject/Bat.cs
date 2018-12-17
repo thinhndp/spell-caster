@@ -19,6 +19,11 @@ namespace LTTQProject
             anim.sprite[1] = new Sprite(Properties.Resources.bat_2, 0.5);
             anim.sprite[2] = new Sprite(Properties.Resources.bat_3, 0.5);
             anim.sprite[3] = new Sprite(Properties.Resources.bat_4, 0.5);
+
+            life = 1;
+            spellRelativeX = -45;
+            spellRelativeY = 30;
+            GenerateNextWeakSpell();
         }
 
         public override void Update()

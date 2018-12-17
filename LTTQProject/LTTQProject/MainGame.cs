@@ -46,5 +46,35 @@ namespace LTTQProject
         {
             game.EndCast();
         }
+
+        private void button2_MouseDown(object sender, MouseEventArgs e)
+        {
+            game.CastSpell(button2.Text);
+        }
+
+        private void button2_MouseUp(object sender, MouseEventArgs e)
+        {
+            game.EndCast();
+        }
+
+        private void button3_MouseDown(object sender, MouseEventArgs e)
+        {
+            game.CastSpell(button3.Text);
+        }
+
+        private void button3_MouseUp(object sender, MouseEventArgs e)
+        {
+            game.EndCast();
+        }
+
+        private void button4_MouseDown(object sender, MouseEventArgs e)
+        {
+            game.CastSpell(button4.Text);
+        }
+
+        private void button4_MouseUp(object sender, MouseEventArgs e)
+        {
+            game.EndCast();
+        }
     }
 }
