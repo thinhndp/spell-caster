@@ -29,7 +29,7 @@ namespace LTTQProject
             anim.sprite[9] = new Sprite(Properties.Resources.dragon_10, 1.2);
             anim.sprite[10] = new Sprite(Properties.Resources.dragon_11, 1.2);
 
-            life = 5;
+            life = 3;
             spellRelativeX = 25;
             spellRelativeY = 140;
             GenerateNextWeakSpell();

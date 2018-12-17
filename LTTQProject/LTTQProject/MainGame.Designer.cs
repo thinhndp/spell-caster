@@ -34,6 +34,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // timer1
@@ -42,9 +43,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(781, 55);
+            this.button1.Location = new System.Drawing.Point(952, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 70);
+            this.button1.Size = new System.Drawing.Size(84, 70);
             this.button1.TabIndex = 0;
             this.button1.Text = "Test";
             this.button1.UseVisualStyleBackColor = true;
@@ -54,7 +55,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(123, 55);
+            this.button2.Location = new System.Drawing.Point(12, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 70);
             this.button2.TabIndex = 1;
@@ -65,7 +66,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(231, 55);
+            this.button3.Location = new System.Drawing.Point(97, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 70);
             this.button3.TabIndex = 2;
@@ -76,7 +77,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(344, 55);
+            this.button4.Location = new System.Drawing.Point(198, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(81, 70);
             this.button4.TabIndex = 3;
@@ -85,6 +86,14 @@
             this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
             this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button4_MouseUp);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(695, 29);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(237, 53);
+            this.textBox1.TabIndex = 4;
+            // 
             // MainGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -92,6 +101,7 @@
             this.BackgroundImage = global::LTTQProject.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1048, 526);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -101,7 +111,11 @@
             this.Name = "MainGame";
             this.Text = "Spellcaster";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.MainGame_Paint);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainGame_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MainGame_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MainGame_MouseUp);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -112,5 +126,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

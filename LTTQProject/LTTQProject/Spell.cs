@@ -52,7 +52,7 @@ namespace LTTQProject
             switch (spell) {
                 case SpellNames.Descendio:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Descendio, SpellConstants.Scale);
-                    RecogList = new String[] {"P", "p"};
+                    RecogList = new String[] {"P", "p", "F", "?"};
                     break;
                 case SpellNames.WingardiumLeviosa:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.WingardiumLeviosa, SpellConstants.Scale);
@@ -60,11 +60,11 @@ namespace LTTQProject
                     break;
                 case SpellNames.Sectumsempra:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Sectumsempra, SpellConstants.Scale);
-                    RecogList = new String[] { "S", "s" };
+                    RecogList = new String[] { "S", "s", "5", "$", "3", "§", "f" };
                     break;
                 default:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Descendio, SpellConstants.Scale);
-                    RecogList = new String[] { "P", "p" };
+                    RecogList = new String[] { "P", "p", "F", "?" };
                     break;
             }
 

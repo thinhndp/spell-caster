@@ -31,14 +31,23 @@ namespace LTTQProject
             enemies.DrawEnemies(e);
         }
 
+        public void HarryCastSpell() {
+            harry.CastSpell();
+        }
+
         public void CastSpell() {
             harry.CastSpell();
             enemies.Destroyed();
         }
 
         public void CastSpell(String attemp) {
-            harry.CastSpell();
+            //harry.CastSpell();
             enemies.TookSpell(attemp);
+        }
+
+        public void HarryEndCast()
+        {
+            harry.EndCast();
         }
 
         public void EndCast() {
