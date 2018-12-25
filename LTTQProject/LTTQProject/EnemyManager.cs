@@ -50,7 +50,7 @@ namespace LTTQProject
         public void SpawnRandomNewEnemy(int x = 700, int y = 275, int movex = 0, int movey = 0) {
             //Random rnd = new Random();
             //int id = rnd.Next(0, 4);
-            int id = Utilities.RandomGenerator(0, 4);
+            int id = Utilities.RandomGenerator(0, 8);
 
             //id = 3;
 
@@ -66,6 +66,18 @@ namespace LTTQProject
                     break;
                 case 3:
                     enemiesList.Add(new Dragon(x, y));
+                    break;
+                case 4:
+                    enemiesList.Add(new Spider(x, y));
+                    break;
+                case 5:
+                    enemiesList.Add(new Wildfire(x, y));
+                    break;
+                case 6:
+                    enemiesList.Add(new Hellfire(x, y));
+                    break;
+                case 7:
+                    enemiesList.Add(new Ghost(x, y));
                     break;
                 default:
                     enemiesList.Add(new Bat(x, y));

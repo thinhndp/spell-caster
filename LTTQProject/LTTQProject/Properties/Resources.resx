@@ -211,4 +211,106 @@
   <data name="dragon_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\enemies_images\dragon_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ArrestoMomento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\ArrestoMomento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpectoPatronum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\ExpectoPatronum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Expeliarmus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\Expeliarmus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Herbivicus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\Herbivicus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Incendio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\Incendio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Revelio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\Revelio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stupify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\spells\Stupify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\spider_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wildfire_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\wildfire_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wildfire_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\wildfire_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wildfire_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\wildfire_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wildfire_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\wildfire_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hellfire_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\hellfire_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghost_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\ghost_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghost_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\ghost_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghost_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\ghost_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghost_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\ghost_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghost_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\enemies_images\ghost_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -38,12 +38,13 @@ namespace LTTQProject
             if (spell == -1) {
                 //Pick random spell
                 //Random rnd = new Random();
-                while (spell != 0 && spell != 4 && spell != 9)
-                {
-                    //temp
-                    //spell = rnd.Next(0, 10);
-                    spell = Utilities.RandomGenerator(0, 10);
-                }
+                //while (spell != 0 && spell != 4 && spell != 9)
+                //{
+                //    //temp
+                //    //spell = rnd.Next(0, 10);
+                //    spell = Utilities.RandomGenerator(0, 10);
+                //}
+                spell = Utilities.RandomGenerator(0, 10);
             }
 
             spellAnim = new Animation(1, 0, 0, -1);
@@ -61,6 +62,34 @@ namespace LTTQProject
                 case SpellNames.Sectumsempra:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Sectumsempra, SpellConstants.Scale);
                     RecogList = new String[] { "S", "s", "5", "$", "3", "§", "f" };
+                    break;
+                case SpellNames.Herbivicus:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.Herbivicus, SpellConstants.Scale);
+                    RecogList = new String[] { "h", "k", "ln" };
+                    break;
+                case SpellNames.ExpectoPatronum:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.ExpectoPatronum, SpellConstants.Scale);
+                    RecogList = new String[] { "Z", "z", "2" };
+                    break;
+                case SpellNames.Incendio:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.Incendio, SpellConstants.Scale);
+                    RecogList = new String[] { "A", "4" };
+                    break;
+                case SpellNames.Revelio:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.Revelio, SpellConstants.Scale);
+                    RecogList = new String[] { "R", "K" };
+                    break;
+                case SpellNames.Expelliarmus:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.Expeliarmus, SpellConstants.Scale);
+                    RecogList = new String[] { "7", "1", "—l"};
+                    break;
+                case SpellNames.ArrestoMemento:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.ArrestoMomento, SpellConstants.Scale);
+                    RecogList = new String[] { "M", "m", "/V\\" };
+                    break;
+                case SpellNames.Stupify:
+                    spellAnim.sprite[0] = new Sprite(Properties.Resources.Stupify, SpellConstants.Scale);
+                    RecogList = new String[] { "4", "L", "/_" };
                     break;
                 default:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Descendio, SpellConstants.Scale);

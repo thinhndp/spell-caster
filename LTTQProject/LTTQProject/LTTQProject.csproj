@@ -64,6 +64,8 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Game.cs" />
+    <Compile Include="Ghost.cs" />
+    <Compile Include="Hellfire.cs" />
     <Compile Include="MainGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,8 +76,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spell.cs" />
+    <Compile Include="Spider.cs" />
     <Compile Include="Sprite.cs" />
     <Compile Include="Utilities.cs" />
+    <Compile Include="Wildfire.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +138,40 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="res\spells\ArrestoMomento.png" />
+    <None Include="res\spells\ExpectoPatronum.png" />
+    <None Include="res\spells\Expeliarmus.png" />
+    <None Include="res\spells\Herbivicus.png" />
+    <None Include="res\spells\Incendio.png" />
+    <None Include="res\spells\Revelio.png" />
+    <None Include="res\spells\Stupify.png" />
+    <None Include="res\enemies_images\spider_1.png" />
+    <None Include="res\enemies_images\spider_2.png" />
+    <None Include="res\enemies_images\spider_3.png" />
+    <None Include="res\enemies_images\spider_4.png" />
+    <None Include="res\enemies_images\spider_5.png" />
+    <None Include="res\enemies_images\spider_6.png" />
+    <None Include="res\enemies_images\spider_7.png" />
+    <None Include="res\enemies_images\spider_8.png" />
+    <None Include="res\enemies_images\wildfire_1.png" />
+    <None Include="res\enemies_images\wildfire_2.png" />
+    <None Include="res\enemies_images\wildfire_3.png" />
+    <None Include="res\enemies_images\wildfire_4.png" />
+    <None Include="res\enemies_images\hellfire_1.png" />
+    <None Include="res\enemies_images\hellfire_2.png" />
+    <None Include="res\enemies_images\hellfire_3.png" />
+    <None Include="res\enemies_images\hellfire_4.png" />
+    <None Include="res\enemies_images\hellfire_5.png" />
+    <None Include="res\enemies_images\hellfire_6.png" />
+    <None Include="res\enemies_images\hellfire_7.png" />
+    <None Include="res\enemies_images\hellfire_8.png" />
+    <None Include="res\enemies_images\hellfire_9.png" />
+    <None Include="res\enemies_images\hellfire_10.png" />
+    <None Include="res\enemies_images\ghost_1.png" />
+    <None Include="res\enemies_images\ghost_2.png" />
+    <None Include="res\enemies_images\ghost_3.png" />
+    <None Include="res\enemies_images\ghost_4.png" />
+    <None Include="res\enemies_images\ghost_5.png" />
     <Content Include="x64\liblept172.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
