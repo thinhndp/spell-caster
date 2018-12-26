@@ -28,7 +28,7 @@ namespace LTTQProject
             anim.sprite[8] = new Sprite(Properties.Resources.hellfire_9, 0.7);
             anim.sprite[9] = new Sprite(Properties.Resources.hellfire_10, 0.7);
 
-            life = 3;
+            life = 5;
             spellRelativeX = -15;
             spellRelativeY = 90;
             GenerateNextWeakSpell();

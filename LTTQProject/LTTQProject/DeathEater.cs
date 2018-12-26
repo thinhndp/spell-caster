@@ -15,6 +15,8 @@ namespace LTTQProject
 
             anim = new Animation(3, 0, 2, -1);
 
+            y -= 25;
+
             anim.sprite[0] = new Sprite(Properties.Resources.death_eater_1, 0.5);
             anim.sprite[1] = new Sprite(Properties.Resources.death_eater_2, 0.5);
             anim.sprite[2] = new Sprite(Properties.Resources.death_eater_3, 0.5);

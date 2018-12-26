@@ -13,7 +13,7 @@ namespace LTTQProject
         {
             kind = "dragon";
 
-            y -= 100;
+            y -= 150;
 
             anim = new Animation(11, 0, 10, -1);
 
@@ -29,7 +29,7 @@ namespace LTTQProject
             anim.sprite[9] = new Sprite(Properties.Resources.dragon_10, 1.2);
             anim.sprite[10] = new Sprite(Properties.Resources.dragon_11, 1.2);
 
-            life = 3;
+            life = 5;
             spellRelativeX = 25;
             spellRelativeY = 140;
             GenerateNextWeakSpell();
@@ -40,11 +40,11 @@ namespace LTTQProject
             //movex = movex == -10 ? 0 : -10;
             movex = -7;
 
-            if (y <= 150)
+            if (y <= 100)
             {
                 movey = 4;
             }
-            else if (y >= 175)
+            else if (y >= 150)
             {
                 movey = -4;
             }

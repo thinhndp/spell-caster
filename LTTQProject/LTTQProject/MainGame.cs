@@ -40,6 +40,7 @@ namespace LTTQProject
             this.Size = new Size(800, 500);
             game = new Game(this);
             this.BackgroundImage = Properties.Resources.background;
+            timer1.Interval = 100; //update rate
 
             //Draw
             bmp = new Bitmap(this.Width, this.Height);
@@ -49,6 +50,9 @@ namespace LTTQProject
             whitePen.StartCap = whitePen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
             g.Clear(Color.White);
             h = this.CreateGraphics();
+
+            //Sound
+            Utilities.PlayBackgroundSound();
 
             //Tick
             timer1.Start();
@@ -61,52 +65,8 @@ namespace LTTQProject
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            game.Update(this, button1, timer1);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_MouseDown(object sender, MouseEventArgs e)
-        {
-            game.CastSpell();
-        }
-
-        private void button1_MouseUp(object sender, MouseEventArgs e)
-        {
-            game.EndCast();
-        }
-
-        private void button2_MouseDown(object sender, MouseEventArgs e)
-        {
-            game.CastSpell(button2.Text);
-        }
-
-        private void button2_MouseUp(object sender, MouseEventArgs e)
-        {
-            game.EndCast();
-        }
-
-        private void button3_MouseDown(object sender, MouseEventArgs e)
-        {
-            game.CastSpell(button3.Text);
-        }
-
-        private void button3_MouseUp(object sender, MouseEventArgs e)
-        {
-            game.EndCast();
-        }
-
-        private void button4_MouseDown(object sender, MouseEventArgs e)
-        {
-            game.CastSpell(button4.Text);
-        }
-
-        private void button4_MouseUp(object sender, MouseEventArgs e)
-        {
-            game.EndCast();
+            //if (timer1.)
+            game.Update(this, timer1);
         }
 
         private void MainGame_MouseDown(object sender, MouseEventArgs e)

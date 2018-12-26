@@ -42,8 +42,19 @@ namespace LTTQProject
                 spawnCooldown++;
             }
 
-            foreach (Enemy enemy in enemiesList) {
-                enemy.Update();
+            //foreach (Enemy enemy in enemiesList) {
+            //    enemy.Update();
+            //}
+            for (int i = 0; i < enemiesList.Count; i++)
+            {
+                enemiesList[i].Update();
+                if (enemiesList[i].isKilled)
+                {
+                    enemiesList.RemoveAt(i);
+                    enemyCount--;
+                    i--;
+                    UI.UpdateScore(UI.score + 1);
+                }
             }
         }
 
@@ -121,12 +132,12 @@ namespace LTTQProject
         public void TookSpell(String attemp) {
             for (int i = 0; i < enemiesList.Count; i++) {
                 enemiesList[i].TookSpell(attemp);
-                if (enemiesList[i].life <= 0)
-                {
-                    enemiesList.RemoveAt(i);
-                    enemyCount--;
-                    i--;
-                }
+                //if (enemiesList[i].isKilled)
+                //{
+                //    enemiesList.RemoveAt(i);
+                //    enemyCount--;
+                //    i--;
+                //}
             }
         }
     }

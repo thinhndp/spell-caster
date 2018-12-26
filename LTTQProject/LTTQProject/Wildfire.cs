@@ -22,7 +22,7 @@ namespace LTTQProject
             anim.sprite[2] = new Sprite(Properties.Resources.wildfire_3, 0.8);
             anim.sprite[3] = new Sprite(Properties.Resources.wildfire_4, 0.8);
 
-            life = 3;
+            life = 4;
             spellRelativeX = 10;
             spellRelativeY = 140;
             GenerateNextWeakSpell();

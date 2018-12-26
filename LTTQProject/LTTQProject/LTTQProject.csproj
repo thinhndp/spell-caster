@@ -78,6 +78,7 @@
     <Compile Include="Spell.cs" />
     <Compile Include="Spider.cs" />
     <Compile Include="Sprite.cs" />
+    <Compile Include="UI.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="Wildfire.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -172,6 +173,20 @@
     <None Include="res\enemies_images\ghost_3.png" />
     <None Include="res\enemies_images\ghost_4.png" />
     <None Include="res\enemies_images\ghost_5.png" />
+    <None Include="res\score\score_0.png" />
+    <None Include="res\score\score_1.png" />
+    <None Include="res\score\score_2.png" />
+    <None Include="res\score\score_3.png" />
+    <None Include="res\score\score_4.png" />
+    <None Include="res\score\score_5.png" />
+    <None Include="res\score\score_6.png" />
+    <None Include="res\score\score_7.png" />
+    <None Include="res\score\score_8.png" />
+    <None Include="res\score\score_9.png" />
+    <None Include="res\sounds\spell.wav" />
+    <None Include="res\sounds\theme.wav" />
+    <None Include="res\sounds\Avada Kedavra 1.wav" />
+    <None Include="res\sounds\spellsound.wav" />
     <Content Include="x64\liblept172.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

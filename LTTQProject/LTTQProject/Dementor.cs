@@ -15,10 +15,12 @@ namespace LTTQProject
 
             anim = new Animation(2, 0, 1, 0);
 
+            y -= 50;
+
             anim.sprite[0] = new Sprite(Properties.Resources.dementor_1, 0.17);
             anim.sprite[1] = new Sprite(Properties.Resources.dementor_2, 0.17);
 
-            life = 3;
+            life = 4;
             spellRelativeX = 10;
             spellRelativeY = 50;
             GenerateNextWeakSpell();
@@ -29,11 +31,11 @@ namespace LTTQProject
             //movex = movex == -10 ? 0 : -10;
             movex = -7;
 
-            if (y <= 250)
+            if (y <= 200)
             {
                 movey = 4;
             }
-            else if (y >= 275)
+            else if (y >= 240)
             {
                 movey = -4;
             }

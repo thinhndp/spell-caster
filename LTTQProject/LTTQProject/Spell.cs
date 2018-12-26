@@ -32,6 +32,7 @@ namespace LTTQProject
         int x, y;
         int state;
         int spellCode;
+        public float[] spellColor;
         String[] RecogList; //Acceptable recognation
 
         public Spell(int x, int y, int life, int spell = -1) {
@@ -54,46 +55,57 @@ namespace LTTQProject
                 case SpellNames.Descendio:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Descendio, SpellConstants.Scale);
                     RecogList = new String[] {"P", "p", "F", "?"};
+                    spellColor = new float[] { 0.0f, 1.0f, 1.0f };
                     break;
                 case SpellNames.WingardiumLeviosa:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.WingardiumLeviosa, SpellConstants.Scale);
                     RecogList = new String[] { "N", "M", "IV" };
+                    spellColor = new float[] { 0.0f, 1.0f, 0.0f };
                     break;
                 case SpellNames.Sectumsempra:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Sectumsempra, SpellConstants.Scale);
                     RecogList = new String[] { "S", "s", "5", "$", "3", "§", "f" };
+                    spellColor = new float[] { 1.0f, 0.0f, 0.0f };
                     break;
                 case SpellNames.Herbivicus:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Herbivicus, SpellConstants.Scale);
-                    RecogList = new String[] { "h", "k", "ln" };
+                    RecogList = new String[] { "h", "k", "ln", "14", "H", "2" };
+                    spellColor = new float[] { 0.0f, 0.0f, 1.0f };
                     break;
                 case SpellNames.ExpectoPatronum:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.ExpectoPatronum, SpellConstants.Scale);
                     RecogList = new String[] { "Z", "z", "2" };
+                    spellColor = new float[] { 1.0f, 1.0f, 0.0f };
                     break;
                 case SpellNames.Incendio:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Incendio, SpellConstants.Scale);
-                    RecogList = new String[] { "A", "4" };
+                    RecogList = new String[] { "A", "4", "0" };
+                    spellColor = new float[] { 1.0f, 0.0f, 1.0f };
                     break;
                 case SpellNames.Revelio:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Revelio, SpellConstants.Scale);
-                    RecogList = new String[] { "R", "K" };
+                    RecogList = new String[] { "R", "K", "2" };
+                    spellColor = new float[] { 1.0f, 0.5f, 0.0f };
                     break;
                 case SpellNames.Expelliarmus:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Expeliarmus, SpellConstants.Scale);
                     RecogList = new String[] { "7", "1", "—l"};
+                    spellColor = new float[] { 1.0f, 1.0f, 1.0f };
                     break;
                 case SpellNames.ArrestoMemento:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.ArrestoMomento, SpellConstants.Scale);
-                    RecogList = new String[] { "M", "m", "/V\\" };
+                    RecogList = new String[] { "M", "m", "/V\\", "/\\/\\" };
+                    spellColor = new float[] { 0.5f, 0.0f, 0.5f };
                     break;
                 case SpellNames.Stupify:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Stupify, SpellConstants.Scale);
                     RecogList = new String[] { "4", "L", "/_" };
+                    spellColor = new float[] { 0.0f, 1.0f, 0.5f };
                     break;
                 default:
                     spellAnim.sprite[0] = new Sprite(Properties.Resources.Descendio, SpellConstants.Scale);
                     RecogList = new String[] { "P", "p", "F", "?" };
+                    spellColor = new float[] { 0.0f, 1.0f, 1.0f };
                     break;
             }
 

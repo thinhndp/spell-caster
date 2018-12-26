@@ -15,6 +15,7 @@ namespace LTTQProject
         int endframe;   // chỉ số frame cuối của animation hiện tại
         int animdelay;
         int animcount;
+        bool isChangingColor;
         public Sprite[] sprite; // một instance của class Animation lưu tất cả các sprite của một object
 
         public Animation(int count = 1, int begin = 0, int end = 0, int delay = 1)
@@ -35,6 +36,15 @@ namespace LTTQProject
             beginframe = begin;
             endframe = end;
             curframe = beginframe;
+        }
+
+        public void SetColor(float r, float g, float b, float a) {
+            isChangingColor = true;
+            sprite[curframe].SetColor(r, g, b, a);
+        }
+
+        public void FreezeAnimation() {
+            animcount--;
         }
 
         void NextFrame(int newframe)
@@ -62,7 +72,12 @@ namespace LTTQProject
                 animcount++;
             }
 
+            //sprite[curframe].SetColor();
             sprite[curframe].Draw(e, x, y);
+            if (isChangingColor) {
+                isChangingColor = false;
+                sprite[curframe].SetColor();
+            }
         }
     }
 }
