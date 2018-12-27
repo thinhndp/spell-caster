@@ -1,13 +1,8 @@
-D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.exe.config
-D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.exe
-D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\LTTQProject.pdb
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csprojResolveAssemblyReference.cache
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.Form1.resources
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.Properties.Resources.resources
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.GenerateResource.Cache
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.csproj.CoreCompileInputs.cache
-D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.exe
-D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.pdb
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.MainGame.resources
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\x64\liblept172.dll
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\x64\libtesseract304.dll
@@ -24,3 +19,10 @@ D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\tessdata\eng.tesseract_cub
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\tessdata\eng.traineddata
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\Tesseract.dll
 D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\Tesseract.xml
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.Intro.resources
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\LTTQProject.GameOver.resources
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\Spell Caster.exe.config
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\Spell Caster.exe
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\bin\Debug\Spell Caster.pdb
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\Spell Caster.exe
+D:\DH\Projects\LTTQ\LTTQProject\LTTQProject\obj\Debug\Spell Caster.pdb

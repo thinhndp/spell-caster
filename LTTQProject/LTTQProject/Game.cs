@@ -72,13 +72,17 @@ namespace LTTQProject
 
         public void GameOver(Form form, Timer timer) {
             timer.Stop();
-            MessageBox.Show("LOL noob");
+            //MessageBox.Show("LOL noob");
             //FormMain fm = new FormMain();
             //fm.Show();
+            Utilities.StopBackGroundSound();
+            GameOver fGameOver = new GameOver(UI.score);
+            fGameOver.ShowDialog();
             GameEnd(form);
         }
 
         public void GameEnd(Form form) {
+            
             form.Dispose();
         }
     }

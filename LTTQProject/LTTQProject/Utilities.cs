@@ -12,6 +12,7 @@ namespace LTTQProject
     {
         public static readonly Random rand = new Random();
         public static SoundPlayer backgroundSoundPlayer = new SoundPlayer(Properties.Resources.theme);
+        public static SoundPlayer introSoundPlayer = new SoundPlayer(Properties.Resources.intro1);
         public static SoundPlayer spellSoundPlayer = new SoundPlayer();
         //public static RecordPlayer rp = new RecordPlayer();
 
@@ -21,6 +22,16 @@ namespace LTTQProject
 
         public static void PlayBackgroundSound() {
             backgroundSoundPlayer.PlayLooping();
+        }
+
+        public static void PlayIntroSound()
+        {
+            introSoundPlayer.PlayLooping();
+        }
+
+
+        public static void StopBackGroundSound() {
+            backgroundSoundPlayer.Stop();
         }
 
         public static void PlaySpellSound() {

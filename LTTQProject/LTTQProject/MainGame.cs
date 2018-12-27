@@ -23,7 +23,7 @@ namespace LTTQProject
         Pen blackPen = new Pen(Color.Black, 10); //Draw on bitmap
         Pen whitePen = new Pen(Color.White, 10); //Draw on screen
         Bitmap bmp = null;
-        int drawWidth;
+        //int drawWidth;
         int mul = 6; //Duplicating bitmap -mul- times
         Point minCorner = new Point(0, 0);
         Point maxCorner = new Point(0, 0);
@@ -53,6 +53,9 @@ namespace LTTQProject
 
             //Sound
             Utilities.PlayBackgroundSound();
+
+            //UI
+            UI.UpdateScore(0);
 
             //Tick
             timer1.Start();
@@ -134,9 +137,9 @@ namespace LTTQProject
             bmpToDuplicate = DuplicateBitmap(bmpToCrop, 0, 0, mul);
 
             //Save image (for debugging)
-            string savepath = System.AppDomain.CurrentDomain.BaseDirectory;
-            savepath += "pattern.png";
-            bmpToDuplicate.Save(savepath, System.Drawing.Imaging.ImageFormat.Png);
+            //string savepath = System.AppDomain.CurrentDomain.BaseDirectory;
+            //savepath += "pattern.png";
+            //bmpToDuplicate.Save(savepath, System.Drawing.Imaging.ImageFormat.Png);
 
             //OCR
             page = engine.Process(bmpToDuplicate, PageSegMode.Auto);
@@ -168,6 +171,16 @@ namespace LTTQProject
                 g.DrawImage(source, temp_x, y);
             }
             return result;
+        }
+
+        private void MainGame_Leave(object sender, EventArgs e)
+        {
+            game.GameEnd(this);
+        }
+
+        private void MainGame_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            game.GameEnd(this);
         }
     }
 }
