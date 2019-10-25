@@ -19,7 +19,7 @@ vượt khỏi vị trí của mình.
 
 ## Built With
 
-* [Tesseract OCR 3.0.2](https://github.com/tesseract-ocr/tesseract) - Engine sử dụng cho việc nhật diện chữ viết.
+* [Tesseract OCR 3.0.2](https://github.com/tesseract-ocr/tesseract) - Engine sử dụng cho việc nhận diện chữ viết.
 
 ### Prerequisites
 
