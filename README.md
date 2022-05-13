@@ -31,7 +31,7 @@ Chạy một trong hai file setup trong thư mục BaoCao để cài đặt.
 
 ## Authors
 
-* **Nguyễn Đình Phú Thịnh** - [tligodsp](https://github.com/tligodsp)
+* **Thịnh Nguyễn** - [tligodsp](https://github.com/tligodsp)
 
 ## Acknowledgments
 
